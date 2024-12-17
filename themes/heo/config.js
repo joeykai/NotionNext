@@ -27,12 +27,12 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '精选内容', url: '/tag/⭐️ 推荐' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/🔥 热门' },
+  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/🧰 教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '⭐️推荐',
+  HEO_HERO_RECOMMEND_POST_TAG: '⭐️ 推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
@@ -49,73 +49,50 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL2: 'http://joeytoday.notion.site',
+  HEO_INFO_CARD_ICON2: 'fa-solid fa-server',
+  HEO_INFO_CARD_URL3: 'mailto:hushi451@hotmail.com',
+  HEO_INFO_CARD_ICON3: 'fa-solid fa-envelope',
+  //HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
-      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
+      title_1: 'Obsidian',
+      img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171425173.png',
       color_1: '#989bf8',
-      title_2: 'Sketch',
-      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      title_2: 'Notion',
+      img_2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171424160.png',
       color_2: '#ffffff'
     },
     {
-      title_1: 'Docker',
-      img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
-      color_1: '#57b6e6',
-      title_2: 'Photoshop',
-      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
-      color_2: '#4082c3'
-    },
-    {
-      title_1: 'FinalCutPro',
-      img_1: '/images/heo/20233e777652412247dd57fd9b48cf997c01070702.webp',
-      color_1: '#ffffff',
-      title_2: 'Python',
-      img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
+      title_1: 'Heptabae',
+      img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171427473.png',
+      color_1: '#3D4043',
+      title_2: 'Readwise',
+      img_2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171431259.png',
       color_2: '#ffffff'
     },
     {
-      title_1: 'Swift',
-      img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
-      color_1: '#eb6840',
-      title_2: 'Principle',
-      img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
-      color_2: '#8f55ba'
+      title_1: 'flomo',
+      img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171433207.png',
+      color_1: '#EEF3ED',
+      title_2: 'MyTomato',
+      img_2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171436342.png',
+      color_2: '#F5ECDC'
     },
     {
-      title_1: 'illustrator',
-      img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
-      color_1: '#f29e39',
-      title_2: 'CSS3',
-      img_2: '/images/heo/20237c548846044a20dad68a13c0f0e1502f074602.webp',
-      color_2: '#2c51db'
-    },
-    {
-      title_1: 'JS',
-      img_1: '/images/heo/2023786e7fc488f453d5fb2be760c96185c0075502.webp',
-      color_1: '#f7cb4f',
-      title_2: 'HTML',
-      img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
-      color_2: '#e9572b'
-    },
-    {
-      title_1: 'Git',
-      img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
-      color_1: '#df5b40',
-      title_2: 'Rhino',
-      img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
-      color_2: '#1f1f1f'
+      title_1: '微信读书',
+      img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171439202.png',
+      color_1: '#F7F7F7',
+      title_2: 'iBooks',
+      img_2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171442622.png',
+      color_2: '#E6A24F'
     }
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
+  HEO_SOCIAL_CARD_TITLE_1: '更多交流',
   HEO_SOCIAL_CARD_TITLE_2: '关注公众号「偶然时刻」',
   HEO_SOCIAL_CARD_TITLE_3: '扫码关注',
   HEO_SOCIAL_CARD_URL: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171236883.jpg',
