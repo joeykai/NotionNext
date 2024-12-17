@@ -90,7 +90,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '更多交流',
   HEO_SOCIAL_CARD_TITLE_2: '关注公众号「偶然时刻」',
   HEO_SOCIAL_CARD_TITLE_3: '扫码关注',
