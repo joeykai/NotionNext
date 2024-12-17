@@ -49,8 +49,8 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: 'mailto:hushi451@hotmail.com',
   HEO_INFO_CARD_ICON1: 'fa-solid fa-envelope',
-  HEO_INFO_CARD_URL2: 'http://joeytoday.notion.site',
-  HEO_INFO_CARD_ICON2: 'fa-solid fa-server',
+  HEO_INFO_CARD_URL2: 'https://www.douban.com/people/147872735',
+  HEO_INFO_CARD_ICON2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412172107765.png',
   HEO_INFO_CARD_URL3: 'http://joeytoday.notion.site',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
