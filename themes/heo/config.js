@@ -17,11 +17,11 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享阅读&观影',
-  HEO_HERO_TITLE_2: '与一点好玩的事情',
+  HEO_HERO_TITLE_1: '分享书影',
+  HEO_HERO_TITLE_2: '与一点好玩儿的',
   HEO_HERO_TITLE_3: 'joeytoday.com',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'JoeyToday个人博客新上线',
+  HEO_HERO_TITLE_4: '新上线',
+  HEO_HERO_TITLE_5: 'JoeyToday个人博客',
   HEO_HERO_TITLE_LINK: 'https://www.joeytoday.com',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
@@ -38,7 +38,7 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
+    '你好！我是(点一点有惊喜)',
     '📚 阅读爱好者',
     '🎬 电影观光人',
     '🍭 资源囤积爱好者',
@@ -47,19 +47,18 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: '/about',
-  HEO_INFO_CARD_ICON1: 'fas fa-user',
+  HEO_INFO_CARD_URL1: 'mailto:hushi451@hotmail.com',
+  HEO_INFO_CARD_ICON1: 'fa-solid fa-envelope',
   HEO_INFO_CARD_URL2: 'http://joeytoday.notion.site',
   HEO_INFO_CARD_ICON2: 'fa-solid fa-server',
-  HEO_INFO_CARD_URL3: 'mailto:hushi451@hotmail.com',
-  HEO_INFO_CARD_ICON3: 'fa-solid fa-envelope',
-  //HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: '',
+  HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
       title_1: 'Obsidian',
-      img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171425173.png',
+      img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171517689.png',
       color_1: '#989bf8',
       title_2: 'Notion',
       img_2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171424160.png',
