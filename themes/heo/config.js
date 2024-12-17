@@ -21,8 +21,8 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与一点好玩的事情',
   HEO_HERO_TITLE_3: 'joeytoday.com',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_5: 'JoeyToday个人博客新上线',
+  HEO_HERO_TITLE_LINK: 'https://www.joeytoday.com',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
