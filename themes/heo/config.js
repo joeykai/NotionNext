@@ -67,7 +67,7 @@ const CONFIG = {
     {
       title_1: 'Heptabae',
       img_1: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171427473.png',
-      color_1: '#3D4043',
+      color_1: '#F6F8FA',
       title_2: 'Readwise',
       img_2: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171431259.png',
       color_2: '#ffffff'
