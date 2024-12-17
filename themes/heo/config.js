@@ -51,7 +51,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fa-solid fa-envelope',
   HEO_INFO_CARD_URL2: 'http://joeytoday.notion.site',
   HEO_INFO_CARD_ICON2: 'fa-solid fa-server',
-  HEO_INFO_CARD_URL3: '',
+  HEO_INFO_CARD_URL3: 'http://joeytoday.notion.site',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
