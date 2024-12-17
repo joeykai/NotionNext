@@ -537,7 +537,7 @@ summary > .notion-h {
 }
 
 .notion-small-text {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .notion-quote {
@@ -545,10 +545,10 @@ summary > .notion-h {
   width: 100%;
   white-space: pre-wrap;
   word-break: break-word;
-  border-left: 3px solid currentcolor;
+  border-left: 4px solid #428646;
   padding: 0.2em 0.9em;
   margin: 6px 0;
-  font-size: 1.2em;
+  font-size: 15px;
 }
 
 .notion-hr {
@@ -559,10 +559,10 @@ summary > .notion-h {
 }
 
 .notion-link {
-  color: inherit;
+  color: #3579FA;
   word-break: break-word;
   text-decoration: inherit;
-  border-bottom: 0.05em solid !important;
+  border-bottom: 0.07em solid !important;
   border-color: var(--fg-color-2);
   opacity: 0.7;
   transition:
