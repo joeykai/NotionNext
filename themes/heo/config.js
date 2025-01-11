@@ -8,7 +8,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '👏 欢迎来到我的博客', url: 'https://www.joeytoday.com' },
+    { title: '👏 欢迎来到我的博客', url: 'https://www.joeytoday.com/board' },
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -90,12 +90,12 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '更多交流',
   HEO_SOCIAL_CARD_TITLE_2: '关注公众号「偶然时刻」',
   HEO_SOCIAL_CARD_TITLE_3: '扫码关注',
   HEO_SOCIAL_CARD_IMAG: 'https://joey-md-asset.oss-cn-hangzhou.aliyuncs.com/img/202412171236883.jpg',
-  HEO_SOCIAL_CARD_COLOR: '#58A55C',
+  HEO_SOCIAL_CARD_COLOR: '',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
